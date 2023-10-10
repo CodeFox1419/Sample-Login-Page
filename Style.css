@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00e4aa;
+}
+.container{
+    width: 70%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .one{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px 0 0 22px;
+    background-color: #2f3d4b;
+}
+.container .second{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 0 22px 22px 0;
+    background-color: white;
+}
+.container .second .logo{
+    width: 80%;
+    height: 50px;
+    margin-top: 2rem;
+    /* background-color: red; */
+}
+.container .second .logo img{
+    width: 150px;
+    height: 45px;
+}
+.container .second .login-area{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container .second .login-area .info{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .second .login-area .info h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #2e3a49;
+}
+.container .second .login-area .info h2{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2e3a49;
+    margin-bottom: 15px;
+}
+.container .second .login-area .info p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #b9bfc3;
+}
+.container .second .login-area .form-wrapper{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container .second .login-area .form-wrapper label[for=email],label[for=pass]{
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #2e3a49;
+}
+
+.container .second .login-area .form-wrapper input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 15px -5px,rgba(0, 0, 0, 0.1) 0px 0px 15px -5px, rgba(255, 255, 255, 0.05) 0px 0px 15px -5px;
+    border-radius: 6px;
+    padding: 10px;
+}
+.container .second .login-area .form-wrapper input:focus{
+    border: 2px solid #00e4aa;
+}
+.container .second .login-area .form-wrapper button{
+    width: 120px;
+    height: 40px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #00e4aa;
+    transition: 0.2s ease;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.container .second .login-area .form-wrapper button:hover{
+    background-color: white;
+    color: #00e4aa;
+    border: 2px solid #00e4aa;
+}
+.container .second .login-area .form-wrapper button:active{
+    transform: scale(0.90);
+}
